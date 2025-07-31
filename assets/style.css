@@ -309,6 +309,258 @@ canvas:hover {
   text-align: center;
   color: #fff;
 }
+.features {
+  width: 1024px;
+  height: 559px;
+  margin-top: 130px;
+}
+.features .texts {
+  width: 591px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.features .upper {
+  width: 95px;
+  height: 18px;
+  color: #767e7e;
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.features .title {
+  width: 557px;
+  height: 112px;
+  font-family: Poppins, sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 56px;
+}
+.features .content {
+  width: 590px;
+  height: 54px;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 27px;
+}
+.features .cards {
+  width: 100%;
+  height: 259px;
+  margin-top: 80px;
+  display: flex;
+}
+.features .cards .card1 {
+  width: 168px;
+  height: 259px;
+  margin-right: 209px;
+}
+.features .cards .card2 {
+  width: 223px;
+  height: 259px;
+  margin-right: 200px;
+}
+.features .cards .card-3 {
+  width: 224px;
+  height: 259px;
+}
+.features .cards .card img {
+  width: 102px;
+  height: 106px;
+}
+.features .cards .card .title {
+  width: 101px;
+  height: 30px;
+  color: #0d1111;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 26px;
+}
+.features .cards .card1 .content {
+  width: 168px;
+  height: 81px;
+  color: #9da6a5;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 27px;
+  margin-top: 16px;
+}
+.features .cards .card2 .content {
+  width: 223px;
+  height: 81px;
+  color: #9da6a5;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 27px;
+  margin-top: 16px;
+}
+.features .cards .card-3 .content {
+  width: 224px;
+  height: 81px;
+  color: #9da6a5;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 27px;
+  margin-top: 16px;
+}
+
+.courses {
+  width: 100%;
+  height: 778px;
+  margin-top: 130px;
+}
+.courses .courses-texts .courses-texts__upper {
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.courses .courses-texts .courses-texts__title {
+  width: 356px;
+  height: 63px;
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 18px;
+}
+.courses .courses-texts .courses-texts__content {
+  width: 525px;
+  height: 64px;
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  margin-top: 19px;
+}
+.courses-items {
+  display: flex;
+  width: 100%;
+  height: 517px;
+  justify-content: space-between;
+  margin-top: 79px;
+}
+.item {
+  width: 359px;
+  height: 517px;
+  position: relative;
+}
+.courses-items .item-img {
+  background-color: rgba(173, 216, 230, 0.438);
+  width: 359px;
+  height: 393px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.courses-items .item-img img {
+  width: 100%;
+  border-radius: 8px;
+  height: 100%;
+  transition: scale 0.3s linear;
+}
+.courses-items .item-img img:hover {
+  transform: scale(1.1);
+}
+.item-card {
+  width: 325px;
+  height: 195px;
+  position: absolute;
+  top: 322px;
+  left: 17px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.19), 0 6px 20px rgba(0, 0, 0, 0.23);
+}
+.item-card .item-card__title {
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 135px;
+  height: 33px;
+  margin-top: 18px;
+  margin-left: 25px;
+}
+.item-card .item-card__price {
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 88px;
+  height: 33px;
+  margin-top: 16px;
+  margin-left: 25px;
+}
+strong {
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.item-card .item-card__content {
+  width: 218px;
+  height: 21px;
+  color: #9da6a5;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 6px;
+  margin-left: 25px;
+}
+.item-card .item-card__class {
+  display: flex;
+  color: #9da6a5;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 18px;
+  margin-left: 25px;
+  gap: 20px;
+}
+.class,
+.time {
+  position: relative;
+  padding-left: 16px;
+}
+
+.item-card__class .class::before,
+.item-card__class .time::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #1ebfc1;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
 /* JavaScript */
 .nav-active {
   /* font-family: Poppins, sans-serif;
